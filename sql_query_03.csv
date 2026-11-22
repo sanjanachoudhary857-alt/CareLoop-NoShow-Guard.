@@ -1,0 +1,4 @@
+lead_time_band,appointments,no_show_rate
+0-7,392,0.161
+31+,44,0.591
+8-30,558,0.231

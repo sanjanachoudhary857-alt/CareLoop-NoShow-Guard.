@@ -1,0 +1,47 @@
+{
+  "numeric_columns": [
+    "age",
+    "distance_km",
+    "fee_inr",
+    "prior_no_shows",
+    "latitude",
+    "longitude",
+    "lead_time_days"
+  ],
+  "mean": {
+    "age": 48.11368209255533,
+    "distance_km": 9.489235412474848,
+    "fee_inr": 649.5472837022132,
+    "prior_no_shows": 0.6348088531187123,
+    "latitude": 21.003003319919518,
+    "longitude": 76.0288819919517,
+    "lead_time_days": 11.830985915492958
+  },
+  "std": {
+    "age": 16.731158825769153,
+    "distance_km": 6.160489937725996,
+    "fee_inr": 344.68675488129827,
+    "prior_no_shows": 0.9490736532414288,
+    "latitude": 5.661684636608605,
+    "longitude": 2.1078006932069377,
+    "lead_time_days": 8.756272712548327
+  },
+  "min": {
+    "age": 0.0,
+    "distance_km": 0.6,
+    "fee_inr": 300.0,
+    "prior_no_shows": 0.0,
+    "latitude": 10.0261,
+    "longitude": 73.8077,
+    "lead_time_days": 1.0
+  },
+  "max": {
+    "age": 78.0,
+    "distance_km": 25.6,
+    "fee_inr": 7500.0,
+    "prior_no_shows": 5.0,
+    "latitude": 26.9124,
+    "longitude": 80.9462,
+    "lead_time_days": 45.0
+  }
+}

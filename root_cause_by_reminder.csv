@@ -1,0 +1,7 @@
+root_cause,No,Yes
+cost_or_fee,0,1
+distance_or_transport,1,1
+forgot_or_no_reminder,2,0
+illness_or_emergency,0,1
+other,0,1
+work_or_schedule,1,1

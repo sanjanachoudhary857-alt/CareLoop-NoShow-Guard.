@@ -1,0 +1,21 @@
+CARELOOP — DATA-RUN SUMMARY
+
+Source rows: appointments 1,020; clinics 8; follow-up notes 30.
+Clean appointments: 994 (26 rows removed by duplicate/date cleaning); 4 clean rows have missing status.
+Distance outliers capped: 26.
+
+SQL:
+- Overall no-show rate: 218 / 994 = 21.93% (missing status retained in denominator).
+- Highest clinic no-show counts: C02 = 39; C04 = 38.
+- Lead time 0–7 days: 16.1%; 8–30 days: 23.1%; 31+ days: 59.1%.
+- Reminder No: 30.7%; Reminder Yes: 15.2%.
+
+Model:
+- Selected: logistic_regression; threshold 0.20.
+- Test accuracy 0.4848; precision 0.2913; recall 0.8955; ROC-AUC 0.7363.
+- High-recall threshold implies many false positives; use for supportive outreach only.
+
+Part 4:
+- First 10 notes: 9 nonblank, 1 blank (N004 skipped).
+- Current checked-in notes_analysed.csv uses offline_rule_based classifications, NOT Gemini.
+- Run 04_genai.ipynb with GEMINI_API_KEY to satisfy the GenAI API requirement and replace these preliminary classifications.
